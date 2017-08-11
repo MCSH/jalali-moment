@@ -1,11 +1,8 @@
 {
-  "name": "jalali-moment",
+  "name": "jalali-moment-timezone",
   "version": "2.0.4",
-  "description": "Display, parse, manipulate ,validate and convert jalali (Persian, Khorshidi, Shamsi) date and time",
-  "author": {
-    "name": "Mojtaba Zarei (Fingerpich)",
-    "email": "zarei.bs@gmail.com"
-  },
+  "description": "Display, parse, manipulate ,validate and convert jalali (Persian, Khorshidi, Shamsi) date and time including timezone functionality",
+  "author": "Sajjad Heydari <mcshemail@gmail.com>",
   "license": "MIT",
   "keywords": [
     "manipulate",
@@ -48,6 +45,8 @@
     "uglifyjs-webpack-plugin": "^0.4.6",
     "webpack": "^3.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "moment-timezone": "^0.5.13"
+  },
   "typings": "./jalali-moment.d.ts"
 }
